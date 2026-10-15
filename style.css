@@ -99,7 +99,7 @@ section { position: relative; }
 
 .hero {
   position: relative;
-  height: max(100vh, calc(150px + 56.25vw)); height: max(100svh, calc(150px + 56.25vw)); min-height: 560px;
+  height: max(100vh, calc(30px + 56.25vw)); height: max(100svh, calc(30px + 56.25vw)); min-height: 560px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
   padding: 5.5rem var(--gutter) 3rem;
   overflow: hidden;
@@ -108,7 +108,7 @@ section { position: relative; }
   position: absolute; z-index: 0; left: 0; bottom: 0;
   width: 100%; height: auto; max-width: none;
   pointer-events: none; user-select: none;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 70px); mask-image: linear-gradient(to bottom, transparent 0, #000 70px);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 40px); mask-image: linear-gradient(to bottom, transparent 0, #000 40px);
 }
 .hero__title {
   position: relative; z-index: 1;
